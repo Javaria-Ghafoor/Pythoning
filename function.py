@@ -27,3 +27,9 @@ def print_me(string_to_print):
        thus we can omit that line
     4. the function must be defined in the code before its use
 """
+
+x = 20
+y = 30
+z = sum_two_elements(x, y)
+print_me('the sum is')
+print x, '+', y, '=', z
